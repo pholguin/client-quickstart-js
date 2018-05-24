@@ -5,16 +5,21 @@ p {
   padding: 0;
   margin: 0;
 }
-
+#textMe{
+  position: absolute;
+  left: 450px;
+  top:400px;
+}
 body {
-  background: #272726;
+  /*background: #2727;*/
+   background-image: url("https://cdn-images-1.medium.com/max/1200/1*Q7AFbgqe7d-s2DASKnHEMg.jpeg");
 }
 
 label {
   text-align: left;
   font-family: Helvetica, sans-serif;
   font-size: 1.25em;
-  color: #777776;
+  color: white;
   display: block;
 }
 
@@ -75,7 +80,7 @@ div#controls {
     font-family: Helvetica-LightOblique, Helvetica, sans-serif;
     font-style: oblique;
     font-size: 1.25em;
-    color: #777776;
+    color: #EFEDED;
   }
 
   div#controls div#info #client-name {
@@ -101,10 +106,6 @@ div#controls {
       position: relative;
       top: 1px;
     }
-
-  div#controls div#call-controls {
-    display: none;
-  }
 
     div#controls div#call-controls input {
       font-family: Helvetica-LightOblique, Helvetica, sans-serif;
